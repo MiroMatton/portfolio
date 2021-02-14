@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="img/logoWhite.png" class="logo" alt="logo">
+    <nav>
+        <ul>
+            <li><a class="underline" data-section="Home" href="#Home">Home</a></li>
+            <li><a class="underline" data-section="About" href="#About">About</a></li>
+            <li><a class="underline" data-section="Skills" href="#Skills">Skills</a></li>
+            <li><a class="underline" data-section="Portfolio" href="#Portfolio">Portfolio</a></li>
+            <li><a class="underline" data-section="Contact" href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="Home">
+        <div id="title" class="boxHeader">
+            <h1>ik ben Miro Matton</h1>
+            <h1><span class="type"></span></h1>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container">
+            <div class="slide-in boxProfile">
+                <img class="profile" src="img/Profile.png" alt="profile pic">
+            </div>
+            <div class="slide-in boxAbout">
+                <h2>About <span>Me</span></h2>
+                <p>Dit ben ik: een webontwikkelaar met een passie voor front-end/back-end development en design.
+                    Ik ben momenteel een student aan de Odisee hogeschool te Gent en volg de richting ICT.
+                    Ik streef naar een carrière waarin ik mijn creativiteit kan kanaliseren door prachtige software en boeiende ervaringen te maken.
+                </p>
+                <p>Als ik niet achter de computer zit, ben ik een animator op het speelplein.</p>
+                <a href="data/CV-Miro-Matton.pdf" download="cv">CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div class="container">
+            <div class="fade-in boxSkillsLeft">
+                <h2 class="hUnderline">Skills</h2>
+                <p>Dit zijn talen, programmas en frameworks waarmee ik al gewerkt hebt.</p>
+            </div>
+            <div class="fade-in boxSkillsRight">
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:javascript"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:figma"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:nodejs-icon"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-html"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-css"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:bootstrap"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:docker-icon"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:java"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-arduino"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:git-icon"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-sql"></span></div>
+                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-php3"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Portfolio">
+        <div class="container">
+            <div class="boxProjects">
+                <div class="fade-in centerTitle">
+                    <h2 class="underlineCenter">Portfolio</h2>
+                    <p>Werken dat ik gemaakt heb of aan gewerkt heb.</p>
+                </div>
+                <div class="firstLayer">
+                    <div class="slide-in projectLeft"><img src="img/project.jpg" alt="project"></div>
+                    <div class="slide-in projectRight"><img src="img/project.jpg" alt="project"></div>
+                </div>
+                <div class="slide-in firstLayer">
+                    <div class="slide-in projectLeft"><img src="img/project.jpg" alt="project"></div>
+                    <div class="slide-in projectRight"><img src="img/project.jpg" alt="project"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="fade-in centerTitle"><h2>Contact <span>Me</span></h2></div>
+        <div class="container">
+            <div class="slide-in boxMessage">
+                <h2 class="hUnderline">get in touch</h2>
+                <form action="" method="post">
+                    <div class="name">
+                        <div class="Fname">
+                            <input id="Fname" name="Fname" type="text" placeholder="voornaam">
+                        </div>
+                        <div class="Lname">
+                            <input id="lName" name="Lname" type="text" placeholder="achternaam">
+                        </div>
+                    </div>
+                    <input type="text" placeholder="E-mail">
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+            <div class="slide-in boxContact">
+                <h2 class="hUnderline">contact details</h2>
+                <div class="boxDetail">
+                    <div class="detail"><span class="iconify" data-inline="false" data-icon="ant-design:mail-outlined"></span><a href="mailto:miro.matton@student.odisee.be">miro.matton@student.odisee.be</a></div>
+                    <div class="detail"><span class="iconify" data-inline="false" data-icon="akar-icons:phone"></span><a href="tel:+0496340726">+0496340726</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <p>gemaakt en gedesigned door Miro Matton.</p>
+        <div class="links">
+            <div class="svg"><span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill"></span></div>
+            <div class="svg"><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span></div>
+        </div>
+    </div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
