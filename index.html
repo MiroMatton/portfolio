@@ -1,131 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-</head>
-<body>
-
-<header>
-    <img src="img/logoWhite.png" class="logo" alt="logo">
-    <nav>
-        <ul>
-            <li><a class="underline" data-section="Home" href="#Home">Home</a></li>
-            <li><a class="underline" data-section="About" href="#About">About</a></li>
-            <li><a class="underline" data-section="Skills" href="#Skills">Skills</a></li>
-            <li><a class="underline" data-section="Portfolio" href="#Portfolio">Portfolio</a></li>
-            <li><a class="underline" data-section="Contact" href="#Contact">Contact</a></li>
+  </head>
+  <body>
+    <header>
+      <img src="img/logoWhite.png" class="logo" alt="logo" />
+      <nav>
+        <ul id="navigation">
+          <li>
+            <a class="underline" data-section="Home" href="#Home">Home</a>
+          </li>
+          <li>
+            <a class="underline" data-section="About" href="#About">About</a>
+          </li>
+          <li>
+            <a class="underline" data-section="Skills" href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a class="underline" data-section="Portfolio" href="#Portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="underline" data-section="Contact" href="#Contact"
+              >Contact</a
+            >
+          </li>
         </ul>
-    </nav>
-</header>
-
-<main>
-    <section id="Home">
+      </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <section id="Home">
         <div id="title" class="boxHeader">
-            <h1>ik ben Miro Matton</h1>
-            <h1><span class="type"></span></h1>
+          <h1>ik ben Miro Matton</h1>
+          <h1><span class="type"></span></h1>
         </div>
-    </section>
+      </section>
 
-    <section id="About">
+      <section id="About">
         <div class="container">
-            <div class="slide-in boxProfile">
-                <img class="profile" src="img/Profile.png" alt="profile pic">
+          <div class="slide-in boxProfile">
+            <img class="profile" src="img/Profile.png" alt="profile pic" />
+          </div>
+          <div class="slide-in boxAbout">
+            <h2>About <span>Me</span></h2>
+            <p>
+              Dit ben ik: een webontwikkelaar met een passie voor
+              front-end/back-end development en design. Ik ben momenteel een
+              student aan de Odisee hogeschool te Gent en volg de richting ICT.
+              Ik streef naar een carrière waarin ik mijn creativiteit kan
+              kanaliseren door prachtige software en boeiende ervaringen te
+              maken.
+            </p>
+            <p>
+              Als ik niet achter de computer zit, ben ik een animator op het
+              speelplein.
+            </p>
+            <a href="data/CV-Miro-Matton.pdf" download="cv">CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Skills">
+        <div class="container">
+          <div class="fade-in boxSkillsLeft">
+            <h2 class="hUnderline">Skills</h2>
+            <p>
+              Dit zijn talen, programmas en frameworks waarmee ik al gewerkt
+              hebt.
+            </p>
+          </div>
+          <div class="fade-in boxSkillsRight">
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:javascript"
+              ></span>
             </div>
-            <div class="slide-in boxAbout">
-                <h2>About <span>Me</span></h2>
-                <p>Dit ben ik: een webontwikkelaar met een passie voor front-end/back-end development en design.
-                    Ik ben momenteel een student aan de Odisee hogeschool te Gent en volg de richting ICT.
-                    Ik streef naar een carrière waarin ik mijn creativiteit kan kanaliseren door prachtige software en boeiende ervaringen te maken.
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:figma"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:nodejs-icon"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="vscode-icons:file-type-html"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="vscode-icons:file-type-css"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:bootstrap"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:docker-icon"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:java"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="vscode-icons:file-type-arduino"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="logos:git-icon"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="vscode-icons:file-type-sql"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="vscode-icons:file-type-php3"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-icon="ion:logo-react"
+                style="color: #61dbfb"
+              ></span>
+            </div>
+            <div class="svg">
+              <span class="iconify" data-icon="logos:vue"></span>
+            </div>
+            <div class="svg">
+              <span class="iconify" data-icon="logos:firebase"></span>
+            </div>
+            <div class="svg">
+              <span class="iconify" data-icon="logos:c-sharp"></span>
+            </div>
+            <div class="svg">
+              <span class="iconify" data-icon="logos:sass"></span>
+            </div>
+            <div class="svg">
+              <span class="iconify" data-icon="logos:laravel"></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-icon="bi:wordpress"
+                style="color: #00749c"
+              ></span>
+            </div>
+            <div class="svg">
+              <span
+                class="iconify"
+                data-icon="logos:python"
+                style="color: #00749c"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Portfolio">
+        <div class="container">
+          <div class="boxProjects">
+            <div class="fade-in centerTitle">
+              <h2 class="underlineCenter">Portfolio</h2>
+              <p>Werken dat ik gemaakt heb of aan gewerkt heb.</p>
+            </div>
+            <div class="firstLayer">
+              <div class="slide-in projectLeft" id="project1">
+                <img src="img/SealeafPreview.jpg" alt="project" />
+              </div>
+              <div class="slide-in projectRight" id="project2">
+                <img src="img/portfolio.png" alt="project" />
+              </div>
+            </div>
+          </div>
+          <div class="projectBackground">
+            <div id="project1Modal" class="project__modal">
+              <button id="project1Close" class="project__close">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="times"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 352 512"
+                  class="svg-inline--fa fa-times fa-w-11"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                    class=""
+                  ></path>
+                </svg>
+              </button>
+              <div class="project-img">
+                <img src="img/SealeafPreview.png" alt="project foto" />
+              </div>
+              <div class="project-info">
+                <h3>Sealeaf</h3>
+                <ul class="project__technologies">
+                  <li class="project__technology">HTML &amp; CSS</li>
+                  <li class="project__technology">JavaScript</li>
+                  <li class="project__technology">Cpanel</li>
+                  <li class="project__technology">instafeed.js</li>
+                  <li class="project__technology">Responsive</li>
+                  <li class="project__technology">UI/UX</li>
+                </ul>
+                <h4>about</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident
                 </p>
-                <p>Als ik niet achter de computer zit, ben ik een animator op het speelplein.</p>
-                <a href="data/CV-Miro-Matton.pdf" download="cv">CV</a>
+                <a
+                  href="https://github.com/MiroMatton/sealeaf"
+                  target="_blank"
+                  class="project__button project__button--modal"
+                  >source</a
+                >
+                <a
+                  href="https://sealeaf.biz/"
+                  target="_blank"
+                  class="project__button project__button--modal"
+                  >Link</a
+                >
+              </div>
             </div>
+            <div id="project2Modal" class="project__modal">
+              <button id="project2Close" class="project__close">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="times"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 352 512"
+                  class="svg-inline--fa fa-times fa-w-11"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                    class=""
+                  ></path>
+                </svg>
+              </button>
+              <div class="project-img">
+                <img src="img/portfolio.png" alt="project foto" />
+              </div>
+              <div class="project-info">
+                <h3>portfolio</h3>
+                <ul class="project__technologies">
+                  <li class="project__technology">HTML &amp; CSS</li>
+                  <li class="project__technology">JavaScript</li>
+                  <li class="project__technology">Responsive</li>
+                  <li class="project__technology">UI/UX</li>
+                </ul>
+                <h4>about</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident
+                </p>
+                <a
+                  href="https://github.com/MiroMatton/portfolio"
+                  target="_blank"
+                  class="project__button project__button--modal"
+                  >source</a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="project__button project__button--modal"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="Skills">
-        <div class="container">
-            <div class="fade-in boxSkillsLeft">
-                <h2 class="hUnderline">Skills</h2>
-                <p>Dit zijn talen, programmas en frameworks waarmee ik al gewerkt hebt.</p>
-            </div>
-            <div class="fade-in boxSkillsRight">
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:javascript"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:figma"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:nodejs-icon"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-html"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-css"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:bootstrap"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:docker-icon"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:java"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-arduino"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="logos:git-icon"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-sql"></span></div>
-                <div class="svg"><span class="iconify" data-inline="false" data-icon="vscode-icons:file-type-php3"></span></div>
-            </div>
+      <section id="Contact">
+        <div class="fade-in centerTitle">
+          <h2>Contact <span>Me</span></h2>
         </div>
-    </section>
-
-    <section id="Portfolio">
-        <div class="container">
-            <div class="boxProjects">
-                <div class="fade-in centerTitle">
-                    <h2 class="underlineCenter">Portfolio</h2>
-                    <p>Werken dat ik gemaakt heb of aan gewerkt heb.</p>
-                </div>
-                <div class="firstLayer">
-                    <div class="slide-in projectLeft"><img src="img/project.jpg" alt="project"></div>
-                    <div class="slide-in projectRight"><img src="img/project.jpg" alt="project"></div>
-                </div>
-                <div class="slide-in firstLayer">
-                    <div class="slide-in projectLeft"><img src="img/project.jpg" alt="project"></div>
-                    <div class="slide-in projectRight"><img src="img/project.jpg" alt="project"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="Contact">
-        <div class="fade-in centerTitle"><h2>Contact <span>Me</span></h2></div>
-        <div class="container">
-            <div class="slide-in boxMessage">
-                <h2 class="hUnderline">get in touch</h2>
-                <form action="" method="post">
-                    <div class="name">
-                        <div class="Fname">
-                            <input id="Fname" name="Fname" type="text" placeholder="voornaam">
-                        </div>
-                        <div class="Lname">
-                            <input id="lName" name="Lname" type="text" placeholder="achternaam">
-                        </div>
-                    </div>
-                    <input type="text" placeholder="E-mail">
-                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-                </form>
-            </div>
-            <div class="slide-in boxContact">
-                <h2 class="hUnderline">contact details</h2>
-                <div class="boxDetail">
-                    <div class="detail"><span class="iconify" data-inline="false" data-icon="ant-design:mail-outlined"></span><a href="mailto:miro.matton@student.odisee.be">miro.matton@student.odisee.be</a></div>
-                    <div class="detail"><span class="iconify" data-inline="false" data-icon="akar-icons:phone"></span><a href="tel:+0496340726">+0496340726</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="footer">
+        <form action="https://formsubmit.co/miromatton@gmail.com" method="POST">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input id="name" name="name" type="text" placeholder="naam" />
+          <input id="email" name="email" type="email" placeholder="E-mail" />
+          <textarea
+            placeholder="message"
+            name="msg"
+            id="msg"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="submit" type="submit">submit</button>
+        </form>
+      </section>
+      <div class="footer">
         <p>gemaakt en gedesigned door Miro Matton.</p>
         <div class="links">
-            <div class="svg"><span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill"></span></div>
-            <div class="svg"><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span></div>
+          <div class="svg">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:linkedin-fill"
+            ></span>
+          </div>
+          <div class="svg">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:github-fill"
+            ></span>
+          </div>
         </div>
-    </div>
-</main>
-
-<script src="js/script.js"></script>
-</body>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
 </html>
