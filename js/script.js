@@ -33,6 +33,7 @@ burger.addEventListener("click", () => {
   header.classList.remove("nav-scrolled");
   header.classList.toggle("nav-menu-backgroundColor");
   body.classList.toggle("active");
+  logo.src = "img/logoWhite.png";
 });
 
 project1.addEventListener("click", () => {
