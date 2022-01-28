@@ -30,6 +30,12 @@ span {
   font-weight: bold;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
 :root {
   --backgroundColor: #222222;
   --gray: #333;
