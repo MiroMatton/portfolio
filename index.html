@@ -335,15 +335,22 @@
         <div class="fade-in centerTitle">
           <h2>Contact <span>Me</span></h2>
         </div>
-        <form action="https://formsubmit.co/miromatton@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="http://127.0.0.1:5501/" />
-          <input type="hidden" name="_captcha" value="false" />
+        <iframe
+          name="dummyframe"
+          id="dummyframe"
+          style="display: none"
+        ></iframe>
+        <form
+          action="https://formspree.io/f/xlevjbzz"
+          target="dummyframe"
+          method="POST"
+        >
           <input id="name" name="name" type="text" placeholder="naam" />
           <input id="email" name="email" type="email" placeholder="E-mail" />
           <textarea
             placeholder="message"
-            name="msg"
-            id="msg"
+            name="message"
+            id="message"
             cols="30"
             rows="10"
           ></textarea>
