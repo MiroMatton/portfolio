@@ -9,4 +9,4 @@
 
 > repro voor mijn persoonelijke website
 
-## word aan vernieuwd 🚧 
+## word vernieuwd 🚧 
