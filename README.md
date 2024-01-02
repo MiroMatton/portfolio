@@ -1,4 +1,4 @@
-<h1 align="center"><a  href="miromatton.be">🚀 miromatton.be</a></h1>
+<h1 align="center"><a  href="https://miromatton.be">🚀 miromatton.be</a></h1>
 <img src="./img/banner.png" width="100%">
 
 <p align="center"> 
@@ -9,4 +9,4 @@
 
 > repro voor mijn persoonelijke website
 
-## word aan vernieuwd 🚧 
+## word vernieuwd 🚧 
